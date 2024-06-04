@@ -1,0 +1,19 @@
+.home-page {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease transform 0.5s ease;
+}
+
+.home-page.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.info {
+  font-size: 1.2em;
+}
